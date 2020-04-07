@@ -6,7 +6,7 @@ body {
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #pageContainer {
@@ -39,7 +39,7 @@ a:hover {
   background-color: transparent;
 }
 #masteHeadContainer .rightIcons {
-    height: 100%;
+  height: 100%;
 }
 #masteHeadContainer button img {
   width: 100%;
@@ -52,36 +52,36 @@ a:hover {
   height: 20px;
 }
 #masteHeadContainer .searchBarContainer {
-    margin: 0 40px;
-    flex: 1;
-    display: flex;
+  margin: 0 40px;
+  flex: 1;
+  display: flex;
 }
 #masteHeadContainer .searchBarContainer form {
-    flex: 1;
-    display: flex;
+  flex: 1;
+  display: flex;
 }
 #masteHeadContainer .searchBarContainer .searchBar {
-    flex: 1;
-    max-width: 600px;
-    color: #111;
-    padding: 2px 6px;
-    font-size: 14px;
-    font-weight: 200;
-    border: 1px solid #ccc;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-    height: 32px;
-    box-shadow: #eee 0px 1px 2px 1px inset;
+  flex: 1;
+  max-width: 600px;
+  color: #111;
+  padding: 2px 6px;
+  font-size: 14px;
+  font-weight: 200;
+  border: 1px solid #ccc;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 32px;
+  box-shadow: #eee 0px 1px 2px 1px inset;
 }
 #masteHeadContainer .searchBarContainer button {
-    border: 1px solid #ccc;
-    width: 50px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
+  border: 1px solid #ccc;
+  width: 50px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 #masteHeadContainer .searchBarContainer button img {
-    width: 25px;
-    height: 23px;
+  width: 25px;
+  height: 23px;
 }
 #sideNavContainer {
   width: 240px;
@@ -92,6 +92,21 @@ a:hover {
   bottom: 0;
   display: flex;
 }
+#mainContentContainer {
+  padding: 10px 30px;
+  flex: 1;
+  display: flex;
+}
+.column {
+  background-color: white;
+  padding: 20px;
+  min-height: 300px;
+  flex: 1;
+  box-shadow: #ccc 0px 1px 10px 1px inset;
+  border-radius: 15px;
+}
+
+
 #mainSectionContainer {
   padding-top: 56px;
   display: flex;
@@ -99,7 +114,4 @@ a:hover {
 #mainSectionContainer.leftPadding {
   padding-left: 240px;
   /* display:flex; */
-}
-#mainContentContainer {
-  padding: 10px 30px;
 }
